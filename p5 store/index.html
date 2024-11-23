@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botostart Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+  </head>
+  <body>
+    <header>
+      <h3>Botostart</h3>
+      <div>
+        <a href="/auth.html" id="login">login</a>
+        <a href="/dashboard.html" id="dashboard">dashboard</a>
+      </div>
+    </header>
+    <div id="search">
+      <h1>
+        shop
+        <input type="text" placeholder="search product..." />
+        <button>fa icon</button>
+      </h1>
+    </div>
+    <dic id="container">
+      <div id="products"><span></span></div>
+      <div id="filter">
+        <div>fa icon</div>
+        <p>categories</p>
+      </div>
+      <ul>
+        <li class="selected">all</li>
+        <li>electronics</li>
+        <li>jewelery</li>
+        <li>men</li>
+        <li>women</li>
+      </ul>
+    </dic>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
